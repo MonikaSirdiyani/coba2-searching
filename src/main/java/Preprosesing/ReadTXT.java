@@ -18,6 +18,8 @@ public class ReadTXT {
     public static void main(String[] args) {
 	ReadTXT obj = new ReadTXT();
 	System.out.println(obj.getFile("test.txt"));
+        System.out.println("hallo");
+        
   }
 
   private String getFile(String fileName) {
