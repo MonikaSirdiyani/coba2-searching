@@ -8,6 +8,7 @@ package Preprosesing;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
+//import weka.core.tokenizers.WordTokenizer;
 
 /**
  *
@@ -17,8 +18,10 @@ public class ReadTXT {
     
     public static void main(String[] args) {
 	ReadTXT obj = new ReadTXT();
-	System.out.println(obj.getFile("test.txt"));
-        System.out.println("hallo lagi");
+	System.out.println(obj.getFile("read/test.txt"));
+     
+      //  WordTokenizer wt =new WordTokenizer();
+       // wt.tokenize(obj.getFile("test.txt"));
         
   }
 
